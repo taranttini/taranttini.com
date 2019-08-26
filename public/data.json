@@ -1,0 +1,82 @@
+{
+  "menu": {
+    "main": [
+      {
+        "id": "educacao",
+        "title": "Educação",
+        "icon": "menu_book"
+      },
+      {
+        "id": "experiencia",
+        "title": "Experiência",
+        "icon": "business_center"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "id": "educacao",
+      "title": "Educação",
+      "description": null,
+      "items": [
+        {
+          "title": "IBTA - Instituto Brasileiro de Tecnologia Avançada",
+          "description": "Pós em Engenharia de Software (2006 - 2007)"
+        },
+        {
+          "title": "Universidade Bandeirante de São Paulo",
+          "description": "Graduação em Análise de Sistemas (2002 - 2006)"
+        }
+      ]
+    },
+    {
+      "id": "experiencia",
+      "title": "Experiência",
+      "description": "Experiência profissional adquirida ao decorrer dos anos, trabalhando nas seguintes empresas.",
+      "items": [
+        {
+          "type": "employee",
+          "title": "Taranttini.com",
+          "ocupation": "Founder",
+          "period": "May 2013 - Present ",
+          "location": "São Paulo Area, Brazil"
+        },
+        {
+          "type": "employee",
+          "title": "G&P",
+          "ocupation": "System Analyst / Developer",
+          "period": "November 2018 - Present ",
+          "location": "São Paulo Area, Brazil"
+        },
+        {
+          "type": "employee",
+          "title": "Sofhar",
+          "ocupation": "System Analyst / Developer",
+          "period": "2013 - October 2018 (5 years 10 months)",
+          "location": "Sao Paulo, Brazil"
+        },
+        {
+          "type": "employee",
+          "title": "TechResult IT Solutions",
+          "ocupation": "System Analyst / Developer",
+          "period": "2009 - 2013 (5 years)",
+          "location": "Sao Paulo, Brazil"
+        },
+        {
+          "type": "employee",
+          "title": "Capgemini / CPM Braxis / Unitch Tecnologia",
+          "ocupation": "System Analyst / Developer",
+          "period": "2006 - 2008 (3 years)",
+          "location": "São Paulo, Brazil"
+        },
+        {
+          "type": "employee",
+          "title": "Grupo HDI",
+          "ocupation": "System Analyst / Developer",
+          "period": "2005 - 2006 (2 years)",
+          "location": "Sao Paulo, Brazil"
+        }
+      ]
+    }
+  ]
+}
