@@ -22,7 +22,7 @@
   }
 
   loadData();
-
+/*
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -36,6 +36,7 @@ function scrollFunction() {
     //document.getElementById("logo").style.fontSize = "35px";
   }
 }
+*/
 
 const speed = 9;
 
@@ -159,7 +160,7 @@ return;
 
     <header id="navbar">
 
-      <h1>Taranttini.com</h1>
+      <h1>taranttini</h1>
     </header>
 
     <Main pages={pages} />

@@ -8,10 +8,12 @@
 <section>
   {#each pages as page}
     <div class="wrap" id={page.id}>
-      <h2>{page.title}</h2>
-      {#if page.description}
-        <p>{page.description}</p>
-      {/if}
+    <h2>{page.title}</h2>
+    {#if page.description}
+      <p>{page.description}</p>
+    {/if}
+    </div>
+    <div class="wrap">
       {#each page.items as item}
         {#if item.type && item.type == 'employee'}
           <WidgetEmployee {...item} />
