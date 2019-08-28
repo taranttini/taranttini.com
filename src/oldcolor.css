@@ -153,3 +153,36 @@ header {
   border: solid 1px #ccc;
 }
 
+
+/*
+@media screen and (min-width: 600px) {
+.widget {
+    width:300px;
+    height: auto;
+    overflow: hidden;
+    background: #ff0
+}
+}
+
+@media screen and (min-width: 1000px) {
+.widget {
+    width:250px;
+    background: #f00
+}
+}
+
+@media screen and (min-width: 1400px) {
+.widget {
+    width:300px;
+    background: #f0f
+}
+}
+
+@media screen and (min-width: 1800px) {
+.widget {
+    font-size:20px;
+    width: 350px;
+    background: #0ff
+}
+}
+*/
