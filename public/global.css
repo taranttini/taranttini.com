@@ -4,6 +4,11 @@
 #36393f
 #282b30
 */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #36393f;
   color: #393e46;
