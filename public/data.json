@@ -2,21 +2,55 @@
   "menu": {
     "main": [
       {
-        "id": "educacao",
-        "title": "Educação",
-        "icon": "menu_book"
+        "id": "sobre",
+        "title": "Sobre",
+        "icon": "person_pin"
+      },
+      {
+        "id": "academico",
+        "title": "Acadêmico",
+        "icon": "grade"
       },
       {
         "id": "experiencia",
         "title": "Experiência",
+        "icon": "business"
+      },
+      {
+        "id": "certificacoes",
+        "title": "Certificações",
         "icon": "business_center"
+      },
+      {
+        "id": "cursos",
+        "title": "Cursos",
+        "icon": "menu_book"
+      },
+      {
+        "id": "freelance",
+        "title": "Freelance",
+        "icon": "local_cafe"
+      },
+      {
+        "id": "hobby",
+        "title": "Hobby",
+        "icon": "keyboard"
       }
     ]
   },
   "pages": [
+    {"id":"sobre",
+    "title":"Sobre",
+    "description": null,
+    "items":[
+      {"title":"dev...",
+      "description":"Tarantini Pereira, 36 anos, pai de 2 crianças lindas e maravilhosas Nicole (5 anos) e Benjamin (2 anos), autodidata e curioso a respeito de tecnologia no ramo desenvolvimento de software. \nBusco sempre estudar e aprender, acho que uma hora vou dar um 'crash' na mente. \nGosto de livros, netflix, podcast, lol e youtube dev."
+      }
+    ]
+    },
     {
-      "id": "educacao",
-      "title": "Educação",
+      "id": "academico",
+      "title": "Acadêmico",
       "description": null,
       "items": [
         {
@@ -36,45 +70,153 @@
       "items": [
         {
           "type": "employee",
-          "title": "Taranttini.com",
-          "ocupation": "Founder",
-          "period": "May 2013 - Present ",
-          "location": "São Paulo Area, Brazil"
+          "title": "Tarantini Tecnologia em Informática LTDA",
+          "ocupation": "Proprietário",
+          "period": "Maio 2013 - Presente ",
+          "location": "São Paulo, Brasil"
         },
         {
           "type": "employee",
           "title": "G&P",
-          "ocupation": "System Analyst / Developer",
-          "period": "November 2018 - Present ",
-          "location": "São Paulo Area, Brazil"
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "Novembro 2018 - Presente ",
+          "location": "São Paulo, Brasil"
         },
         {
           "type": "employee",
           "title": "Sofhar",
-          "ocupation": "System Analyst / Developer",
-          "period": "2013 - October 2018 (5 years 10 months)",
-          "location": "Sao Paulo, Brazil"
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "2013 - Outubro 2018 (5 anos e 10 meses)",
+          "location": "São Paulo, Brasil"
         },
         {
           "type": "employee",
           "title": "TechResult IT Solutions",
-          "ocupation": "System Analyst / Developer",
-          "period": "2009 - 2013 (5 years)",
-          "location": "Sao Paulo, Brazil"
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "2009 - 2013 (5 anos)",
+          "location": "São Paulo, Brasil"
         },
         {
           "type": "employee",
           "title": "Capgemini / CPM Braxis / Unitch Tecnologia",
-          "ocupation": "System Analyst / Developer",
-          "period": "2006 - 2008 (3 years)",
-          "location": "São Paulo, Brazil"
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "2006 - 2008 (3 anos)",
+          "location": "São Paulo, Brasil"
         },
         {
           "type": "employee",
           "title": "Grupo HDI",
-          "ocupation": "System Analyst / Developer",
-          "period": "2005 - 2006 (2 years)",
-          "location": "Sao Paulo, Brazil"
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "2005 - 2006 (2 anos)",
+          "location": "São Paulo, Brasil"
+        },
+        {
+          "type": "employee",
+          "title": "Retesp",
+          "ocupation": "Auxiliar de CPD",
+          "period": "2002 - 2005 (3 anos)",
+          "location": "São Paulo, Brasil"
+        }
+      ]
+    },
+    {
+      "id": "certificacoes",
+      "title": "Certificações",
+      "items": [
+        {
+          "title": "Microsoft",
+          "description": "Programming in HTML5 with JavaScript and CSS3 Specialist – 11/2012"
+        },
+        {
+          "title": "Microsoft",
+          "description": "MCTS – Microsoft Certified Technology Specialist – 07/2011"
+        },
+        {
+          "title": "Microsoft",
+          "description": "NET Framework 4, Web Applications – 07/2011"
+        },
+        {
+          "title": "Microsoft",
+          "description": "MCP – Microsoft Certified Professional – 07/2011"
+        },
+        {
+          "title": "Microsoft",
+          "description": "TS: Microsoft .NET Framework – Application Development Foundation – 07/2011"
+        },
+        {
+          "title": "Microsoft",
+          "description": "TS: Web Applications Development with Microsoft .NET Framework – 07/2011"
+        }
+      ]
+    },
+    {
+      "id": "cursos",
+      "title": "Cursos",
+      "items": [
+        {
+          "title": "Rocketseat",
+          "description": "Bootcamp GoStack React"
+        },
+        { "title": "Fazep", "description": "SCRUM Básico" },
+        {
+          "title": "Udemy",
+          "description": "Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)"
+        },
+        {
+          "title": "Udemy",
+          "description": "Do Zero à Nuvem: API Restful com NodeJS, Restify e MongoDB"
+        },
+        {
+          "title": "Udemy",
+          "description": "Vue.js Essentials - 3 Course Bundle"
+        },
+        { "title": "KA Solution", "description": "Asp.Net Framework 4.0" }
+      ]
+    },
+    {
+      "id": "freelance",
+      "title": "Freelance",
+      "description": "Trabalhos realizados como Freelance, e que serviu muito de experiência.",
+      "items": [
+        {
+          "title": "2014 – iParla",
+          "description": "Desenvolvimento de site de notícias/blog, utilizando PHP, MySql, JavaScript."
+        },
+
+        {
+          "title": "2012 – Grupo Furia Campeira",
+          "description": "Desenvolvimento de site para grupo musical, utilizando PHP, MySql, JavaScript e jQuery"
+        },
+        {
+          "title": "2012 – Enjesa Construções e Empreendimentos",
+          "description": "Desenvolvimento de ferramenta para atendimento online (chat) utilizando PHP, MySql, JavaScript e jQuery"
+        },
+        {
+          "title": "2011 – Enjesa Construções e Empreendimentos",
+          "description": "Desenvolvimento de site empresarial, utilizando PHP, Drupal, MySql."
+        }
+      ]
+    },
+    {
+      "id": "hobby",
+      "title": "Hobby",
+      "description": "Trabalhos realizados como hobby e estudo.",
+      "items": [
+        {
+          "title": "2017 – Aplicativo para Google PlayStore: Nicole ABC",
+          "description": "Desenvolvimento de aplicativo ajudar a conhecer o alfabeto, utilizando WebView e JavaScript"
+        },
+        {
+          "title": "2016 – Aplicativo para ChromeWebStore: Ferramenta Meu Cartola FC",
+          "description": "Desenvolvimento de aplicativo para acompanhar a pontuação em tempo real dos times e jogadores, utilizando ReactJS e API"
+        },
+        {
+          "title": "2015 – Aplicativo para Google PlayStore: Pensar e Fazer",
+          "description": "Desenvolvimento de jogo educacional/medicinal, utilizando WebView e JavaScript"
+        },
+        {
+          "title": "2015 – Aplicativo para Google PlayStore: Dofus Archmonster",
+          "description": "Desenvolvimento de aplicativo para controlar a lista de monstros capturados, utilizando WebView, JavaScript, Firebase Google, Cloud Google"
         }
       ]
     }

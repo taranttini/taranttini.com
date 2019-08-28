@@ -1,0 +1,155 @@
+/*
+CORES
+#200f21
+#382039
+#5a3d5c
+#f638dc
+
+#fffcc1
+#fdeaab
+#cba1d2
+#ab72c0
+
+
+#f9f9f9
+#bcbab8
+#9d8f8f
+#625757
+
+#222831
+#393e46
+#d65a31
+#eeeeee
+*/
+/*CORES*/
+/*
+body {
+  background: #9d8f8f;
+  color: #393e46;
+  background: linear-gradient(-45deg,#bcbab8, #625757 );
+}
+
+header {
+  background: linear-gradient(30deg,#393e46,#393e46cc,#393e46);
+}
+
+.menu {
+  background: #382039;
+  background: linear-gradient(-20deg, #222831, #393e46);
+}
+
+.menu li, .menu a {
+  color: #ddd;
+}
+
+.menu .i:hover {
+  background: #200f21;
+}
+
+.menu .i:active {
+  background: #5a3d5c;
+
+}
+
+.menu .t, .menu .i:hover, .menu .i:hover a, .menu a:hover {
+  color: #d65a31;
+}
+
+.menu .i:active, .menu .i:active a {
+  color: #fff;
+}
+
+body::-webkit-scrollbar-track {
+  background: #9d8f8f;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-color: #9d8f8f;
+  background: #393e46;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: #393e46;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  border-color:#393e46;
+  background: #9d8f8f;
+}
+
+.wrap .content {
+  color: #eee;
+  background: linear-gradient(30deg,
+  rgba(0,20,20,.1), rgba(0,20,20,.5))
+}
+
+*/
+
+
+
+
+
+
+
+/*
+#373331
+#605a56
+#80ac7b
+#e8eaa1
+
+#f9f9f9
+#bcbab8
+#9d8f8f
+#625757
+
+
+
+*/
+
+/*CORES*/
+body {
+  background: #ddd;
+  color: #393e46;
+  }
+
+header {
+  background: linear-gradient(30deg,
+  #373331,
+  #373331dd,
+  #373331dd,
+  #373331dd,
+  #373331dd,
+  #373331);
+}
+
+.menu {
+  background: #373331;
+}
+
+.menu i{color:#9d8f8f44;}
+.menu li, .menu a {
+  color: #9d8f8f;
+}
+
+.menu .i:hover {
+  background: #655;
+}
+
+.menu .i:active {
+  background:#544;
+}
+
+.menu .t, .menu .i:hover, .menu .i:hover a, .menu a:hover {
+  color: #f9f9f9;
+}
+
+.menu .i:active, .menu .i:active a {
+  color: #fff;
+}
+
+.wrap .content {
+  color: #393e46;
+  background: #fff;
+  border: solid 1px #ccc;
+}
+

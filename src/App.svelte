@@ -12,12 +12,12 @@
 		pages = data.pages;
 
 
-		console.log('load' ,menu, pages);
+		//console.log('load' ,menu, pages);
 	}
 
   let hide = true;
   const toggle = () => {
-    console.log('xxxx')
+
     hide = !hide;
   }
 
@@ -38,6 +38,7 @@ function scrollFunction() {
 }
 */
 
+/*
 const speed = 9;
 
 function goUp(){
@@ -71,22 +72,10 @@ let dd=document.getElementById("experiencia");
 //el.offsetTop;
 console.log('s', t, dd, event, el.offsetTop,document.body.scrollTop +  document.documentElement.scrollTop);
 return;
-/*
-	console.log(x,x1,x2)
 
-  	if(x < x2) {
-		goUp()
-   	} else if (x > x2) {
-		goDown();
-    }
-	else {
-		console.log(3);
-		x=x1=x2
-	}
-*/
 };
 //s()
-
+*/
 
 </script>
 
@@ -101,11 +90,11 @@ return;
 			{#each menu as item}
 				<li class="i">
 					<i class="material-icons">{item.icon}</i>
-					<a href="#{item.id}" on:click={(e)=>{toggle();checar(e,this, item.id)}}>{item.title}</a>
+					<a href="#{item.id}" on:click={(e)=>{toggle();/*checar(e,this, item.id)*/}}>{item.title}</a>
       	</li>
 			{/each}
 
-	asssssss
+      <!--
       <li class="i">
         <i class="material-icons">person_pin</i>
         quem sou
@@ -152,6 +141,7 @@ return;
         <i class="material-icons">local_library</i>
         menu 4
       </li>
+      -->
     </ul>
 
   </div>
@@ -164,6 +154,9 @@ return;
     </header>
 
     <Main pages={pages} />
+
+    <footer>
+      desenvolvido com svelte 3
+    </footer>
   </div>
 </div>
-<h1>Hello {name}!</h1>
