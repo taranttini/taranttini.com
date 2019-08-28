@@ -203,6 +203,7 @@ li.i {
 
 li a {
   text-decoration: none;
+  display: block;
 }
 
 section {

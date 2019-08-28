@@ -1,6 +1,6 @@
 {
   "name": "taranttini.com",
-  "version": "4",
+  "version": "1.0.0",
   "description": "My homepage",
   "scripts": {
     "build": "rollup -c",

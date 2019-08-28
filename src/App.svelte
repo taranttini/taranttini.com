@@ -89,8 +89,8 @@ return;
       <li class="t">Menu</li>
 			{#each menu as item}
 				<li class="i">
-					<i class="material-icons">{item.icon}</i>
-					<a href="#{item.id}" on:click={(e)=>{toggle();/*checar(e,this, item.id)*/}}>{item.title}</a>
+					<a href="#{item.id}" on:click={(e)=>{toggle();/*checar(e,this, item.id)*/}}>
+          <i class="material-icons">{item.icon}</i>{item.title}</a>
       	</li>
 			{/each}
 
