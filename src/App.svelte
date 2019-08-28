@@ -158,6 +158,5 @@ return;
     <footer>
       desenvolvido com svelte 3
     </footer>
-    <!-- modificando app.svelte on github -->
   </div>
 </div>
