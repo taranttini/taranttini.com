@@ -7,6 +7,11 @@
         "icon": "person_pin"
       },
       {
+        "id": "habilidades",
+        "title": "Habilidades",
+        "icon": "task"
+      },
+      {
         "id": "academico",
         "title": "Acadêmico",
         "icon": "grade"
@@ -39,14 +44,16 @@
     ]
   },
   "pages": [
-    {"id":"sobre",
-    "title":"Sobre",
-    "description": null,
-    "items":[
-      {"title":"dev...",
-      "description":"Tarantini Pereira, 36 anos, pai de 2 crianças lindas e maravilhosas Nicole (5 anos) e Benjamin (2 anos), autodidata e curioso a respeito de tecnologia no ramo desenvolvimento de software. \nBusco sempre estudar e aprender, acho que uma hora vou dar um 'crash' na mente. \nGosto de livros, netflix, podcast, lol e youtube dev."
-      }
-    ]
+    {
+      "id": "sobre",
+      "title": "Sobre",
+      "description": null,
+      "items": [
+        {
+          "title": "dev...",
+          "description": "Tarantini Pereira, 38 anos, pai de 2 crianças lindas e maravilhosas Nicole (8 anos) e Benjamin (4 anos), autodidata e curioso a respeito de tecnologia no ramo desenvolvimento de software. \nBusco sempre estudar e aprender, acho que uma hora vou dar um 'crash' na mente. \nGosto de livros, netflix, podcast, lol e youtube dev."
+        }
+      ]
     },
     {
       "id": "academico",
@@ -64,6 +71,63 @@
       ]
     },
     {
+      "id": "habilidades",
+      "title": "Habilidades",
+      "description": null,
+      "items": [
+        {
+          "type": "skill",
+          "title": "csharp",
+          "grade": 5
+        },
+        {
+          "type": "skill",
+          "title": "delphi",
+          "grade": 3
+        },
+        {
+          "type": "skill",
+          "title": "node",
+          "grade": 4
+        },
+        {
+          "type": "skill",
+          "title": "sqlserver",
+          "grade": 4
+        },
+        {
+          "type": "skill",
+          "title": "oracle",
+          "grade": 4
+        },
+        {
+          "type": "skill",
+          "title": "docker",
+          "grade": 3
+        },
+        {
+          "type": "skill",
+          "title": "vue",
+          "grade": 2
+        },
+        {
+          "type": "skill",
+          "title": "angular",
+          "grade": 4
+        },
+        {
+          "type": "skill",
+          "title": "react",
+          "grade": 3
+        },
+        {
+          "type": "skill",
+          "title": "git",
+          "grade": 3
+        }
+      ]
+    },
+    {
       "id": "experiencia",
       "title": "Experiência",
       "description": "Experiência profissional adquirida ao decorrer dos anos, trabalhando nas seguintes empresas.",
@@ -72,50 +136,193 @@
           "type": "employee",
           "title": "Tarantini Tecnologia em Informática LTDA",
           "ocupation": "Proprietário",
-          "period": "Maio 2013 - Presente ",
-          "location": "São Paulo, Brasil"
+          "period": "05/2013 - Presente",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "all"
+          ]
+        },
+        {
+          "type": "employee",
+          "title": "200dev",
+          "client": "Crefisa",
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "11/2021 - Presente",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "angular",
+            "c#",
+            "docker",
+            "git",
+            "microseviço",
+            "mock/moq",
+            "netcore",
+            "nodejs",
+            "openshift",
+            "oracle",
+            "rest",
+            "webapi"
+          ]
+        },
+        {
+          "type": "employee",
+          "title": "Certsys",
+          "client": "Neon",
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "01/2018 - 11/2021",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "angular",
+            "c#",
+            "docker",
+            "git",
+            "helm",
+            "jquery",
+            "kafka",
+            "kubernetes",
+            "microseviço",
+            "mock/moq",
+            "mongodb",
+            "mvc",
+            "netcore",
+            "nodejs",
+            "rabbitmq",
+            "rest",
+            "sqlserver",
+            "webapi"
+          ]
         },
         {
           "type": "employee",
           "title": "G&P",
+          "client": "Sefaz SP / Prodesp",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
-          "period": "Novembro 2018 - Presente ",
-          "location": "São Paulo, Brasil"
+          "period": "09/2018 - 11/2018",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "ajax",
+            "c#",
+            "git",
+            "jquery",
+            "mock/moq",
+            "mvc",
+            "netframework",
+            "nodejs",
+            "oracle",
+            "rest",
+            "soap",
+            "sqlserver",
+            "vue",
+            "webform"
+          ]
         },
         {
           "type": "employee",
           "title": "Sofhar",
+          "client": "Sefaz SP / Prodesp",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
-          "period": "2013 - Outubro 2018 (5 anos e 10 meses)",
-          "location": "São Paulo, Brasil"
+          "period": "02/2013 - 02/2018",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "ajax",
+            "c#",
+            "jquery",
+            "netframework",
+            "oracle",
+            "rest",
+            "soap",
+            "sqlserver",
+            "webform"
+          ]
         },
         {
           "type": "employee",
           "title": "TechResult IT Solutions",
+          "client": "Sefaz SP / Prodesp",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
-          "period": "2009 - 2013 (5 anos)",
-          "location": "São Paulo, Brasil"
+          "period": "05/2009 - 02/2013",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "ajax",
+            "c#",
+            "jquery",
+            "netframework",
+            "oracle",
+            "soap",
+            "sqlserver",
+            "webform"
+          ]
+        },
+        {
+          "type": "employee",
+          "title": "Sefaz SP",
+          "client": "Prodesp",
+          "ocupation": "Assistente Técnico da Fazenda Estadual II",
+          "period": "04/2008 - 05/2009",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "ajax",
+            "c#",
+            "netframework",
+            "oracle",
+            "soap",
+            "sqlserver",
+            "webform"
+          ]
         },
         {
           "type": "employee",
           "title": "Capgemini / CPM Braxis / Unitch Tecnologia",
+          "client": "Sefaz SP / Prodesp",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
-          "period": "2006 - 2008 (3 anos)",
-          "location": "São Paulo, Brasil"
+          "period": "04/2006 - 05/2008",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "c#",
+            "netframework",
+            "oracle",
+            "soap",
+            "sqlserver",
+            "webform"
+          ]
+        },
+        {
+          "type": "employee",
+          "title": "Vayon",
+          "client": "FBiz / Fulano",
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "02/2006 - 04/2006",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "asp",
+            "sqlserver"
+          ]
         },
         {
           "type": "employee",
           "title": "Grupo HDI",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
-          "period": "2005 - 2006 (2 anos)",
-          "location": "São Paulo, Brasil"
+          "period": "09/2005 - 02/2006",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "c#",
+            "netframework",
+            "sqlserver",
+            "winform"
+          ]
         },
         {
           "type": "employee",
           "title": "Retesp",
           "ocupation": "Auxiliar de CPD",
-          "period": "2002 - 2005 (3 anos)",
-          "location": "São Paulo, Brasil"
+          "period": "05/2002 - 02/2005",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "delphi",
+            "firebird",
+            "flash",
+            "php"
+          ]
         }
       ]
     },
@@ -154,10 +361,17 @@
       "title": "Cursos",
       "items": [
         {
+          "title": "School Of Net / Code Education",
+          "description": "Full Cycle"
+        },
+        {
           "title": "Rocketseat",
           "description": "Bootcamp GoStack React"
         },
-        { "title": "Fazesp", "description": "SCRUM Básico" },
+        {
+          "title": "Fazesp",
+          "description": "SCRUM Básico"
+        },
         {
           "title": "Udemy",
           "description": "Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)"
@@ -170,7 +384,10 @@
           "title": "Udemy",
           "description": "Vue.js Essentials - 3 Course Bundle"
         },
-        { "title": "KA Solution", "description": "Asp.Net Framework 4.0" }
+        {
+          "title": "KA Solution",
+          "description": "Asp.Net Framework 4.0"
+        }
       ]
     },
     {
@@ -182,7 +399,6 @@
           "title": "2014 – iParla",
           "description": "Desenvolvimento de site de notícias/blog, utilizando PHP, MySql, JavaScript."
         },
-
         {
           "title": "2012 – Grupo Furia Campeira",
           "description": "Desenvolvimento de site para grupo musical, utilizando PHP, MySql, JavaScript e jQuery"
