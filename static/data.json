@@ -62,7 +62,7 @@
       "items": [
         {
           "title": "FAM - Faculdade das Americas",
-          "description": "EAD - Graduação Banco de Dados (2023)"
+          "description": "EAD - Graduação em Banco de Dados (2023)"
         },
         {
           "title": "IBTA - Instituto Brasileiro de Tecnologia Avançada",
@@ -154,7 +154,6 @@
         {
           "type": "employee",
           "title": "Crefisa",
-          "client": "Crefisa",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
           "period": "07/2022 - present",
           "location": "São Paulo, Brasil",
@@ -391,6 +390,10 @@
       "id": "cursos",
       "title": "Cursos",
       "items": [
+        {
+          "title": "Red Hat Trainin and Certification",
+          "description": "Red Hat System Administration I (RH124)"
+        },
         {
           "title": "School Of Net / Code Education",
           "description": "Full Cycle"
