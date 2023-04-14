@@ -51,7 +51,7 @@
       "items": [
         {
           "title": "dev...",
-          "description": "Tarantini Pereira, 38 anos, pai de 2 crianças lindas e maravilhosas Nicole (8 anos) e Benjamin (4 anos), autodidata e curioso a respeito de tecnologia no ramo desenvolvimento de software. \nBusco sempre estudar e aprender, acho que uma hora vou dar um 'crash' na mente. \nGosto de livros, netflix, podcast, lol e youtube dev."
+          "description": "Tarantini Pereira, 39 anos, pai de 2 crianças lindas e maravilhosas Nicole (9 anos) e Benjamin (5 anos), autodidata e curioso a respeito de tecnologia no ramo desenvolvimento de software. \nBusco sempre estudar e aprender, acho que uma hora vou dar um 'crash' na mente. \nGosto de livros, netflix, podcast, lol e youtube dev."
         }
       ]
     },
@@ -60,6 +60,10 @@
       "title": "Acadêmico",
       "description": null,
       "items": [
+        {
+          "title": "FAM - Faculdade das Americas",
+          "description": "EAD - Graduação Banco de Dados (2023)"
+        },
         {
           "title": "IBTA - Instituto Brasileiro de Tecnologia Avançada",
           "description": "Pós em Engenharia de Software (2006 - 2007)"
@@ -122,6 +126,11 @@
         },
         {
           "type": "skill",
+          "title": "rust",
+          "grade": 1
+        },
+        {
+          "type": "skill",
           "title": "git",
           "grade": 3
         }
@@ -144,10 +153,32 @@
         },
         {
           "type": "employee",
+          "title": "Crefisa",
+          "client": "Crefisa",
+          "ocupation": "Analista de Sistemas / Desenvolvedor",
+          "period": "07/2022 - present",
+          "location": "São Paulo, Brasil",
+          "techs": [
+            "angular",
+            "c#",
+            "docker",
+            "git",
+            "microseviço",
+            "mock/moq",
+            "netcore",
+            "nodejs",
+            "openshift",
+            "oracle",
+            "rest",
+            "webapi"
+          ]
+        },
+        {
+          "type": "employee",
           "title": "200dev",
           "client": "Crefisa",
           "ocupation": "Analista de Sistemas / Desenvolvedor",
-          "period": "11/2021 - Presente",
+          "period": "11/2021 - 07/2022",
           "location": "São Paulo, Brasil",
           "techs": [
             "angular",
