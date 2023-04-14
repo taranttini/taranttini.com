@@ -2,15 +2,11 @@
 	import Main from './components/Main.svelte';
 	export let menu = [];
 	export let pages = [];
+	export let data;
 
-	const loadData = async () => {
-  let data = await fetch('./data.json');
-	data = await data.json();
-
-		menu = data.menu.main;
-		pages = data.pages;
-
-	}
+	menu = data.menu.main;
+	pages = data.pages;
+	
 
   let hide = true;
   const toggle = () => {
@@ -18,7 +14,6 @@
     hide = !hide;
   }
 
-  loadData();
 </script>
 
 <div class="site">
